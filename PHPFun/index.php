@@ -7,9 +7,11 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>Kim's Stuff</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body bgcolor="#E6E6FA">
+        <p>
           <?php
            
             $myArray=array ('Hilbert','Copernicus','Prince');
@@ -20,10 +22,11 @@ and open the template in the editor.
             define ('SITELINK', 'http://www.stackoverflow.com');
 
         ?>
-        <img src="picture.jpg" width="250" height="175" title="Logo of a company" alt="Logo of a company">
+        <img src="picture.jpg" width="250" height="175" title="Pretty picture">
         <?php
         echo "<br />"
         ?>
 <a href="<?php echo SITELINK; ?>">Go to home!</a>
+        </p>
     </body>
 </html>
